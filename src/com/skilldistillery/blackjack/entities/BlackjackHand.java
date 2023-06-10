@@ -4,8 +4,11 @@ public class BlackjackHand extends Hand {
 
 	@Override
 	public int getHandValue() {
-		// TODO Auto-generated method stub
-		return 0;
+		int runningTotal = 0;
+		for (Card card : hand) {
+		runningTotal += card.getValue();
+		}
+		return runningTotal;
 	}
 
 }
