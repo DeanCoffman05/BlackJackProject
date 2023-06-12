@@ -75,6 +75,9 @@ public class BJApp {
 			} else if (choice.equalsIgnoreCase("stand")) {
 				break;
 			}
+			else if (!choice.equalsIgnoreCase("hit") || !choice.equalsIgnoreCase("stand")) {
+				System.out.println("Error: Not a choice, please choose hit or stand.");
+			}
 
 		}
 		System.out.println("The Dealer has: ");
