@@ -53,6 +53,7 @@ public class BJApp {
 
 		} else {
 			System.out.println("Goodbye!");
+			System.exit(0);
 		}
 		if (player.getHandValue() == 21) {
 			System.out.println("!BLACKJACK!");
